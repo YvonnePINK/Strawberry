@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    function displayInfo(args){
+        var output = '';
+        if(typeof args.name == 'string'){
+            output +='Name:'+args.name + "\n";
+        }
+        if(typeof args.age == 'number'){
+            output +='Age:' + args.age + '\n';
+        }
+        alert(output);
+    }
+    displayInfo({
+        name:'neo',
+        age:29
+    });
+    displayInfo({
+        name:'Amy',
+        age:23
+    });
+
+
+    if (Array.isArray(["sd",'djd','dkf'])){
+        alert("是数组")
+    }
+
+
+    var colors = ['red','blue','green'];
+    alert(colors.toString());
+    alert(colors.valueOf());
+    alert(colors);
+
+
+    //重排序方法
+    function compare(value1,value2){
+        if(value1<value2){
+            return 1;
+        }
+        else if(value1>value2){
+            return -1;
+        }
+        else{
+            return 0;
+        }
+    }
+    var values1 = [0,1,5,15,10];
+    values1.sort(compare);
+    alert(values1);
+
+    function compare(value1,value2){
+        return value2 - value1;
+    }
+    var values2 = [0,1,5,15,10];
+    values2.sort(compare);
+    alert(values2);
+
+    //操作方法
+    var colors = ['red','yellow'];
+    var colors2 = colors.concat('pink',['blue','gray']);
+    alert(colors);
+    alert(colors2);
+
+    var colors = ['red','yellow','blue','gray'];
+    //到结束为止之前的一项
+    var colors2 = colors.slice(1,3);
+    alert(colors);
+    alert(colors2);
+
+    var colors = ['red','yellow','blue','gray'];
+    var removed = colors.splice(1,1);
+    alert(colors);
+//返回的值为yellow，即为撤除的这一项
+    alert(removed);
+//
+//    var removed2 = colors.splice(1,0,'pink','green');
+//    alert(colors);
+////返回一个空数组
+//    alert(removed2);
+
+    var removed3 = colors.splice(1,1,'pink','green');
+    alert(colors);
+//返回的为撤除的那个
+    alert(removed3);
+
+    //位置方法
+    var numbers = [1,2,3,4,5,4,3,2,1];
+//查找起点位置，及要查找的项
+    alert(numbers.indexOf(4,4));
+    alert(numbers.lastIndexOf(4,4));
+
+
+迭代方法
+//false
+    var numbers = [1,2,3,4,5,4,3,2,1];
+    var everyResult = numbers.every(function(item,index,array){
+        return(item>2);
+    });
+    alert(everyResult);
+//true
+    var someResult = numbers.some(function(item,index,array){
+        return (item>2);
+    });
+    alert(someResult);
+
+    var filterResult = numbers.filter(function(item,index,array){
+        return (item>2);
+    });
+    alert(filterResult);
+
+    var mapResult = numbers.map(function(item,index,array){
+        return item*2;
+    });
+    alert(mapResult);
+
+    var eachResult = numbers.forEach(function(item,index,array){
+
+    });
+
+
+    //栈方法
+    var colors = new Array();
+    var count = colors.push("red");
+    alert(count);
+
+    count.push('balck');
+    alert(count);
+//从后拿  从前面拿
+    var item = colors.pop();
+    var item2 = colors.shift();
+
+    //模仿队列
+    //从前面进，后面拿
+    count = colors.unshift('black');
+    var item  = colors.pop();
+
+    正则表达式的test()方法
+    var text = "000-00-0000";
+    var pattern = /\d{3}-\d{2}-\d{4}/;
+    if(pattern.test(text)){
+        alert('The pattern was matched');
+    }
+
+    var pattern = new RegExp('\\[bc\\]at/gi');
+    alert(pattern.toString());
+    alert(pattern.toLocaleString());
+
+
+</script>
+</body>
+</html>

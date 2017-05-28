@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+       html{
+           margin: 0;
+           padding: 0;
+           font-family: sans-serif;
+           font-size: 14px;
+       }
+        article{
+            width: 500px;
+            margin: 10px  auto;
+            border: 1px solid #cccccc;
+        }
+        article nav{
+            background-color: #000000;
+            display: flex;
+            height: 30px;
+        }
+        article a{
+            text-decoration: none;
+            line-height: 30px;
+            flex: 1;
+            color: #ffffff;
+            text-align: center;
+        }
+       article ol{
+           min-height: 400px;
+           list-style: none;
+           margin: 0;
+           padding: 0 10px;
+       }
+        ol li{
+              line-height: 40px;
+        }
+    </style>
+</head>
+<body ng-app="Music">
+<article>
+    <nav>
+        <!-后端会说明需要什么样的参数->
+        <!-需要一个类型id 1,2,3,4->
+        <!-1表示流行，2表示华语 3表示欧美 4表示日韩->
+    <a href="#/1">流行</a>
+    <a href="#/2">华语</a>
+    <a href="#/3">欧美</a>
+    <a href="#/4">日韩</a>
+    </nav>
+    <ol>
+        <div ng-view></div>
+    </ol>
+</article>
+<script src="../js/angular.min.js"></script>
+<script src="../js/angular-route.js"></script>
+<script>
+   var Music = angular.module('Music',['ngRoute']);
+   Music.config(['$routeProvider',function($routeProvider){
+       //当成一个实参来对待
+        $routeProvider.when('/:id',{
+            templateUrl:'./view/list.html',
+            controller:'ListController'
+       }).otherwise({
+            redirectTo:'/1'
+        });
+   }]);
+    Music.controller('ListController',['$scope','$http','$routeParams',
+        function ($scope,$http,$routeParams){
+       var id = $routeParams.id;
+        $http({
+            url:'./api/list.php',
+            method:'get',
+            params:{type:id}
+        }).success(function(info){
+            $scope.lists = info;
+        })
+    }
+    ])
+</script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            font-size: 12px;
+        }
+     #div1{
+         width: 100px;
+         height: 200px;
+         background: #ccc;
+         position: absolute;
+         left: -100px;
+     }
+        #div1 span{
+            width: 20px;
+            height:60px;
+            line-height: 20px;
+            text-align: center;
+            left: 100px;
+            top: 70px;
+            position: absolute;
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+<div id="div1">
+    <span>分享到</span>
+</div>
+<script type="text/javascript">
+window.onload = function(){
+    var oDiv1 = document.getElementById('div1');
+//    var oSpan = oDiv1.getElementsByTagName('span')[0];
+    oDiv1.onmouseover = function(){
+       startMove(0);
+        oDiv1.onmouseout = function(){
+            startMove(-100);
+        }
+    }
+};
+var timer = null;
+function startMove(iTarget){
+      var oDiv1 = document.getElementById('div1');
+      clearInterval(timer);//开始运动时关闭已有定时器
+        timer = setInterval(function() {
+            var iSpeed = 0;
+            if(oDiv1.offsetLeft<iTarget){
+                iSpeed = 10;
+            }
+            else{
+                iSpeed=-10
+            }
+            //通过目标点计算速度值
+            //在这里先设好，就不需要再window.onload里写上ispeed参数了
+            //即不需要startMove(ispeed,itarget)
+            if (oDiv1.offsetLeft == iTarget) {
+                clearInterval(timer);
+            }
+            else
+            {
+                oDiv1.style.left = oDiv1.offsetLeft + iSpeed + 'px';
+            }
+        },30);
+}
+
+</script>
+</body>
+</html>

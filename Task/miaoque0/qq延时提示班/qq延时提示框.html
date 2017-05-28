@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        *{
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+       /*body{*/
+           /*width:800px;*/
+           /*height:600px*/
+            /*position: relative;*/
+            /*background: url("images/bg.png") no-repeat;*/
+           /*margin:0 auto;*/
+        /*}*/
+        /**/
+        .page{
+            width:800px;
+            height:600px;
+            background:url(images/bg.png) no-repeat;
+            margin:0 auto;
+            position:relative;
+        }
+
+        #img{
+            position: absolute;
+            width:52px;
+            height:52px;
+            background:url(images/link.png) 0 -52px no-repeat;
+            float:left;
+            margin:37px 0 0 12px;
+            /*background: url("images/link.png") no-repeat 462px 56px;*/
+
+        }
+        a#img:hover{
+            background-position: 0 0;
+        }
+
+        #div1{
+            width:306px;
+            height:391px;
+            position: absolute;
+             background: url("images/qq.png") no-repeat;
+            left: 450px;
+            top: 20px;
+        }
+        #div2{
+            width:299px;
+            height:207px;
+            position: absolute;
+            background: url("images/prompt.png") no-repeat ;
+            left: 170px;
+            top: 50px;
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="page">
+    <div id="div1">
+      <a href="#" id="img"></a>
+    </div>
+
+    <div id="div2">
+
+    </div>
+</div>
+<script type="text/javascript">
+          window.onload = function(){
+              var timer = null;
+              var oDiv2 = document.getElementById('div2');
+              var oImg = document.getElementById('div1');
+              oImg.onmouseover = oDiv2.onmouseover = function(){
+                      clearTimeout(timer);
+                      oDiv2.style.display = 'block';
+              };
+              oImg.onmouseout =oDiv2.onmouseout = function(){
+                  timer = setTimeout(function(){
+                      oDiv2.style.display = 'none';
+                  },300)
+              }
+
+          }
+</script>
+</body>
+</html>

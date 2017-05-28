@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<script>
+ $(function () {
+     //需求：在页面上按键，是哪个颜色的首写字母div就改变为该颜色。然后span内容赋值
+     //步骤;1.给document绑定keyup事件
+     var div = $("#bgChange");
+     var span = $("#keyCodeSpan");
+     $(document).keyup(function () {
+         switch (e.keyCode){
+             case 80:div.css("background-color","pink");
+                     span.text(e.keyCode);
+                 break;
+             case 66:div.css("background-color","blue");
+                     span.text(e.keyCode);
+                 break;
+             case 79:div.css("background-color","yellow");
+                     span.text(e.keyCode);
+                 break;
+             case 82:div.css("background-color","white");
+                 span.text(e.keyCode);
+                 break;
+             default :
+                 alert("系统没有设置该颜色！");
+         }
+     });
+     //2.获取值，根据此值，给div和span上色和内容
+ })
+</script>
+<body>
+<div class="wrap">
+    <h1>按键改变颜色</h1>
+    <div id="bgChange">keyCode为：<span id="keyCodeSpan"></span></div>
+</div>
+</body>
+</html>

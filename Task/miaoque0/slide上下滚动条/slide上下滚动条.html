@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .roll{
+            margin: 20px auto;
+            width: 120px;
+            height: 402px;
+            border: 1px solid #cccccc;
+            position: relative;
+        }
+         .roll .btn_top{
+             width: 27px;
+             height: 27px;
+             display: block;
+             position: absolute;
+             top: 5px;
+             left: 48px;
+             background: url("images/up.gif") no-repeat;
+             cursor: pointer;
+         }
+        .roll .btn_bottom{
+            width: 27px;
+            height: 27px;
+            display: block;
+            position: absolute;
+            bottom: 5px;
+            left: 48px;
+            background: url("images/down.gif") no-repeat ;
+            cursor: pointer;
+
+        }
+        .roll .wrap{
+            width: 102px;
+            height: 325px;
+            position: absolute;
+            top: 37px;
+            left: 10px;
+            overflow: hidden;
+        }
+       .roll  ul{
+            width: 102px;
+            position:absolute;
+            top:0;
+        }
+        li{
+            position: relative;
+            list-style: none;
+            width: 102px;
+            height: 102px;
+        }
+        li a:hover{
+            position: relative;
+            left: 2px;
+
+        }
+    </style>
+</head>
+<body>
+<div class="roll" id="roll">
+    <a href="#" class="btn_top"></a>
+    <a href="#" class="btn_bottom"></a>
+    <div class="wrap">
+    <ul>
+        <li><a href="#"><img src="images/1.jpg" /></a></li>
+        <li><a href="#"><img src="images/2.jpg" /></a></li>
+        <li><a href="#"><img src="images/3.jpg" /></a></li>
+        <li><a href="#"><img src="images/4.jpg" /></a></li>
+    </ul>
+    </div>
+</div>
+<script type="text/javascript">
+    window.onload = function(){
+        var iSpeed = -3;
+        var timer = null;
+        var oDiv = document.getElementById('roll');
+        var oUl = oDiv.getElementsByTagName('ul')[0];
+        var oLi = oUl.getElementsByTagName('li');
+        var oBtn = oDiv.getElementsByTagName('a');
+        oUl.innerHTML+=oUl.innerHTML;
+        oUl.style.height = oLi[0].offsetHeight*oLi.length+'px';
+        timer= setInterval(function(){
+            oUl.style.top = oUl.offsetTop+iSpeed+'px';
+            if(oUl.offsetTop<-oUl.offsetHeight/2){
+                oUl.style.top='0px';
+            }
+           else if(oUl.offsetTop>0){
+                oUl.style.top = -oUl.offsetHeight/2 + 'px';
+            }
+        },50);
+        oUl.onmouseover = function(){
+            clearInterval(timer);
+        };
+        oUl.onmouseout = function(){
+            timer= setInterval(function(){
+                oUl.style.top = oUl.offsetTop+iSpeed+'px';
+                if(oUl.offsetTop<-oUl.offsetHeight/2){
+                    oUl.style.top='0px';
+                }
+                else if(oUl.offsetTop>0){
+                    oUl.style.top = -oUl.offsetHeight/2 + 'px';
+                }
+            },50);
+        };
+        oBtn[0].onmouseover = function(){
+            iSpeed =-3;
+        };
+        oBtn[1].onmouseover = function(){
+            iSpeed = 3;
+        }
+    };
+</script>
+</body>
+</html>

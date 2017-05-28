@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        html{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style: none;
+        }
+        .wrap{
+            width: 330px;
+            height: 30px;
+            margin: 100px auto 0;
+            padding-left: 10px;
+            line-height: 30px;
+            text-align: center;
+        }
+        .wrap li ul{
+            position: absolute;
+            top: 30px;
+            display: none;
+        }
+    </style>
+    <script src="jquery-1.11.1.min.js"></script>
+    <script>
+        //入口函数
+//        $(function () {
+//
+//        })
+        $(document).ready(function(){
+            //鼠标放入一级li中，让里面的UL显示，移开隐藏
+            var jqli = $(".wrap>ul>li");
+
+            jqli.mouseover(function(){
+                //这个位置用到了this,这里的this是DOM元素
+                //让this中的UL显示出来，而不是this
+               // this.children[1].style.display = "none"
+                //把js的DOM对象包装成jQuery对象，然后用jQuery方法操作
+                $(this).children("ul").show();
+            });
+            jqli.mouseout(function(){
+                $(this).children("ul").hide();
+            });
+        })
+    </script>
+</head>
+<body>
+<div class="wrap">
+    <ul>
+        <li><a href="#">一级菜单</a>
+            <ul>
+                <li><a href="#">二级菜单1</a> </li>
+                <li><a href="#">二级菜单2</a></li>
+                <li><a href="#">二级菜单3</a></li>
+            </ul>
+        </li>
+        <li><a href="#">一级菜单</a>
+            <ul>
+                <li><a href="#">二级菜单1</a> </li>
+                <li><a href="#">二级菜单2</a></li>
+                <li><a href="#">二级菜单3</a></li>
+            </ul>
+        </li>
+        <li><a href="#">一级菜单</a>
+            <ul>
+                <li><a href="#">二级菜单1</a> </li>
+                <li><a href="#">二级菜单2</a></li>
+                <li><a href="#">二级菜单3</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

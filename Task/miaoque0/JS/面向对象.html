@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    //通过new创建对象实例
+    var person = new Object();
+    person.name  = 'kasd';
+    person.age = '29';
+    person.job = 'math';
+    person.sayName = function(){
+        alert(this.name);
+    };
+
+//对象字面量创建对象
+    var person = {
+        name: 'kss',
+        age: '29',
+        job: 'math',
+        sayName: function(){
+            alert(this.name);
+        }
+    };
+
+    //数据属性
+    var person = {};
+    Object.defineProperty(person,'name',{
+        writable:false,
+        value:'Neo'
+    });
+    alert(person.name);
+    person.name = 'Amy';
+    alert(person.name);
+
+   // configurable设置为FALSE后，就不能变回可配置了
+    var person = {};
+    Object.defineProperty(person,'name',{
+         configurable:false,
+        value:'Neo'
+    });
+    alert(person.name);
+    delete person.name;
+    alert(person.name);
+
+  Object.defineProperty(person,'name',{
+      configurable:true,
+      writable:true,
+      value:'Neo'
+});
+    alert(person.name);
+    person.name = 'Amy';
+    alert(person.name);
+
+
+
+    //setter和getter
+    var book = {
+        _year: 2004,
+        edition:1
+    };
+    Object.defineProperty(book,'year',{
+        get: function () {
+            return this._year;
+        },
+        set: function(newValue){
+            if(newValue>2004){
+                this._year = newValue;
+                this.edition +=newValue - 2004;
+            }
+        }
+    });
+    book.year = 2005;
+    alert(book.edition);
+
+
+    //定义多个属性值
+    var book = {};
+    Object.defineProperties(book,{
+        _year: {
+            value: 2004
+        },
+        edition: {
+            value:1
+        },
+        year: {
+            get:function(){
+                return this._year;
+            },
+            set:function(newValue){
+                if(newValue>2004){
+                    this._year = newValue;
+                    this.edition +=newValue - 2004;
+                }
+            }
+        }
+    });
+    //读取属性的特性
+    var descriptor = Object.getOwnPropertyDescriptor(book,'_year');
+    alert(descriptor.value);
+    alert(descriptor.configurable);
+    alert(typeof descriptor.get);
+
+    var descriptor1 = Object.getOwnPropertyDescriptor(book,'year');
+    alert(descriptor1.value);
+    alert(descriptor1.enumerable);
+    alert(typeof  descriptor1.get);
+</script>
+</body>
+</html>

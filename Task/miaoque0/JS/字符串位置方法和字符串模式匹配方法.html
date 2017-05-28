@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    //字符串位置方法
+    var stringValue = 'Lorem ipsum dolor sit amet,consectetur adipisocing elit';
+    var position = new Array();
+    var pos = stringValue.indexOf('e');
+    while(pos>-1){
+        position.push(pos);
+        pos = stringValue('e',pos+1);
+    }
+    alert(position);
+
+    //字符串模式匹配方法
+    function htmlEscape(text){
+        return text.replace(/[<>"&]/g, function(match,pos,originalText){
+            switch (match){
+                case "<":
+                    return "&lt;";
+                case ">":
+                    return "&gt;";
+                case  "&":
+                    return "&amp;";
+                case  "\"":
+                    return "&quot;";
+            }
+        })
+    }
+    alert(htmlEscape('<p class=\'greeting\'>Hello world!</p>'));
+
+   // localeCompare()方法，字符串比较
+    function determineOrder(value){
+        var stringValue = 'yellow';
+        var result = stringValue.localeCompare(value);
+        if (result<0){
+            alert("The string 'yellow' come before the string '"+ value +"'.");
+        }else if(result>0){
+            alert("The string yellow come after the string + value +''");
+        }else{
+            alert("The string yellow is equal to the string + value +''");
+        }
+    }
+    determineOrder('black');
+    determineOrder('yellow');
+    determineOrder('zoo');
+</script>
+</body>
+</html>

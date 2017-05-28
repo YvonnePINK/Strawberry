@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3a60d0bb-81bc-4294-b2ed-f8a2d8c1fcc8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/数码时钟/imgs/0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/土豆网悬浮菜单/images/01.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/土豆网悬浮菜单/images/02.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/slide上下滚动条/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/仿flash的图片轮转播放器/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/无缝滚动图片/imgs/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/鼠标经过模块出现/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/数码时钟/imgs/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/苹果导航菜单/images/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/slide上下滚动条/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/仿flash的图片轮转播放器/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/无缝滚动图片/imgs/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/鼠标经过模块出现/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/数码时钟/imgs/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/苹果导航菜单/images/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/slide上下滚动条/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/仿flash的图片轮转播放器/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/无缝滚动图片/imgs/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/鼠标经过模块出现/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/数码时钟/imgs/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/苹果导航菜单/images/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/slide上下滚动条/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/仿flash的图片轮转播放器/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/无缝滚动图片/imgs/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/数码时钟/imgs/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/苹果导航菜单/images/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/仿flash的图片轮转播放器/images/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/数码时钟/imgs/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/苹果导航菜单/images/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/仿flash的图片轮转播放器/images/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/数码时钟/imgs/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/数码时钟/imgs/7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/数码时钟/imgs/8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/数码时钟/imgs/9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/public/images/IMG_0269_07.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/public/images/IMG_0269_09.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/public/images/IMG_0269_17.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/public/images/IMG_0269_19.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/public/images/IMG_0269_27.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/public/images/IMG_0269_29.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/public/images/IMG_0269_37.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/public/images/IMG_0269_39.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/public/images/IMG_0269_47.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/public/images/IMG_0269_49.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/public/images/IMG_0275_07.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/public/images/IMG_0275_09.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/public/images/IMG_0275_17.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/public/images/IMG_0275_19.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/public/images/IMG_0275_27.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/public/images/IMG_0275_29.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/public/images/IMG_0275_37.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/public/images/IMG_0275_39.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/public/images/IMG_0275_47.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/public/images/IMG_0275_49.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/二级菜单初级/images/active_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/鼠标经过模块出现/images/addbuddy.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/public/images/avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/uploads/avatar_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/uploads/avatar_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/uploads/avatar_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/HTML5/b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/作业网页换肤/image/bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/qq延时提示班/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/数码时钟/imgs/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/作业网页换肤/image/bg1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/淡入淡出图片/images/boy.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/仿flash的图片轮转播放器/images/btn.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/无缝滚动图片/imgs/btn.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/css3/display" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/slide上下滚动条/images/down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/播放列表收缩展开/images/down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/播放列表收缩展开/images/down_list_h2_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/数码时钟/imgs/five.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/鼠标经过模块出现/images/forumlink.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/数码时钟/imgs/four.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/public/images/gallery.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/qq延时提示班/images/link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/public/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/仿flash的图片轮转播放器/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/数码时钟/imgs/miaov.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/土豆网悬浮菜单/images/mini_jpgs.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/土豆网悬浮菜单/images/minibar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/数码时钟/imgs/month.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/二级菜单初级/images/nav_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/数码时钟/imgs/one.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/鼠标经过模块出现/images/pmto.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/uploads/post_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/uploads/post_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/uploads/post_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/uploads/post_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/uploads/post_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/qq延时提示班/images/prompt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/鼠标经过模块出现/images/qq.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/qq延时提示班/images/qq.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/数码时钟/imgs/seven.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/数码时钟/imgs/sign.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/数码时钟/imgs/six.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/电影评分/images/star.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/鼠标经过模块出现/images/star_level1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/鼠标经过模块出现/images/star_level2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/鼠标经过模块出现/images/star_level3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/数码时钟/imgs/three.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/数码时钟/imgs/title.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/数码时钟/imgs/two.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/slide上下滚动条/images/up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/播放列表收缩展开/images/up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/鼠标经过模块出现/images/userinfo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/数码时钟/imgs/week.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/数码时钟/imgs/year.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/node/.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/domutils/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/isarray/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/string_decoder/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/nth-check/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/entities/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/isarray/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/process-nextick-args/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/cases/01-basic.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/cases/02-single_tag_1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/cases/03-single_tag_2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/cases/04-unescaped_in_script.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/cases/05-tags_in_comment.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/cases/06-comment_in_script.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/cases/07-unescaped_in_style.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/cases/08-extra_spaces_in_tag.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/cases/09-unquoted_attrib.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/cases/10-singular_attribute.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/cases/11-text_outside_tags.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/cases/12-text_only.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/126密码提示框.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/cases/13-comment_in_text.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/cases/14-comment_in_text_in_script.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/cases/15-non-verbose.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/cases/16-normalize_whitespace.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/cases/17-xml_namespace.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/cases/18-enforce_empty_tags.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/cases/19-ignore_empty_tags.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/cases/20-template_script_tags.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/cases/21-conditional_comments.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/cases/22-lowercase_tags.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/cases/23-dom-lvl1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/cases/24-with-start-indices.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/cases/25-with-end-indices.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Ajax分页实例.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/lib/internal/streams/BufferList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/lib/CollectingHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/鼠标经过模块出现/DUzi.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/lib/FeedHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/GOVERNANCE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/util-deprecate/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/JS简易日历(innerHTML和数组).html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/css-what/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/domutils/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/domutils/node_modules/domelementtype/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/dom-serializer/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/dom-serializer/node_modules/domelementtype/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/entities/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domelementtype/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/inherits/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/core-util-is/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/string_decoder/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/util-deprecate/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.assignin/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.bind/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.defaults/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.filter/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.flatten/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.foreach/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.map/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.merge/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.pick/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.reduce/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.reject/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.some/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/isarray/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/JS/Math里的随机值函数.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/lib/Parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/lib/ProxyHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/boolbase/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/nth-check/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/inherits/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/core-util-is/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/isarray/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/string_decoder/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/util-deprecate/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.assignin/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.bind/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.defaults/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.filter/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.flatten/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.foreach/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.map/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.merge/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.pick/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.reduce/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.reject/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.some/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/lib/Stream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Task.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/lib/Tokenizer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/lib/WritableStream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/lib/_stream_duplex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/lib/_stream_passthrough.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/lib/_stream_readable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/lib/_stream_transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/lib/_stream_writable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Angularjs路由music/js/angular-route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/bower_components/angular-route/angular-route.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Angularjs实现跨域/libs/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Angularjs练习/libs/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Angularjs路由music/js/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/bower_components/angular/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/any.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Angularjs练习/留言+增删/css/css/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/scripts/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/assert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/async.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/async.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/lib/api/attributes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/lib/attributes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/css3/background.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/promise/ball.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Angularjs练习/留言+增删/css/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/bind.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/browser/bluebird.core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/browser/bluebird.core.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/browser/bluebird.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/bluebird.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/browser/bluebird.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/util-deprecate/browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/call_apply.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/call_apply_extend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/call_get.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/callback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/cancel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/catch_filter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/changelog.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/lib/cheerio.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/school/class.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/clearboth.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/comment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/lib/compile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/nth-check/compile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/isarray/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/context.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/context.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/scripts/controllers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/crawler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/crawler2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/lib/api/css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/作业网页换肤/style/css1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/作业网页换肤/style/css2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/date对象的其他功能.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/debuggability.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/entities/lib/decode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/entities/maps/decode.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/entities/lib/decode_codepoint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/direct_resolve.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/scripts/directives.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/css3/displaybox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/div变宽变窄.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/api/doc.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/duplex-browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/duplex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/each.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/lib/element.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/entities/lib/encode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/entities/maps/entities.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/errors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/es5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/events.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/filter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/finally.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/domutils/test/fixture.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/test/fixture.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/core-util-is/float.patch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/lib/api/forms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/lib/general.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/generators.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/domutils/lib/helpers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/domutils/test/tests/helpers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/lib/helpers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/test/tests/helpers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/http.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/https.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Angularjs练习/留言+增删/css/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Angularjs路由music/view/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/boolbase/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/css-what/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/domutils/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/domutils/node_modules/domelementtype/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/nth-check/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/dom-serializer/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/dom-serializer/node_modules/domelementtype/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/entities/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/lib/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domelementtype/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/buffer-shims/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/isarray/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/process-nextick-args/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.assignin/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.bind/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.defaults/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.filter/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.flatten/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.foreach/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.map/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.merge/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.pick/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.reduce/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.reject/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.some/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/school/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/inherits/inherits.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/inherits/inherits_browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/.idea/jQuery小练习.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/jQuery练习/jQuery小练习.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/jQuery练习.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/join.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/jQuery练习/jquery-1.11.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/jQuery练习/自定义插件/jquery-MrLv-1.11.1-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/jQuery练习/jquery-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/jQuery练习/jquery-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/jQuery练习/jquery.color.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/jQuery练习/jquery.lazyload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/jQuery练习/jquery.lazyload.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/json应用.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/domutils/lib/legacy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/domutils/test/tests/legacy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/lib/legacy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/test/tests/legacy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/entities/maps/legacy.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/buffer-shims/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/process-nextick-args/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Angularjs路由music/view/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Angularjs路由music/api/list.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/public/less/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/lib/api/manipulation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/domutils/lib/manipulation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/lib/manipulation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/method.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/仿flash的图片轮转播放器/miao_style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/.idea/miaoque0.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/仿flash的图片轮转播放器/miaov_demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/二级菜单初级/miaov_dome.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/二级菜单初级/miaov_style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/entities/test/mocha.opts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/仿flash的图片轮转播放器/move.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/move2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/lib/node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/util-deprecate/node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/nodeback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/nodeify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/boolbase/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/css-what/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/domutils/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/domutils/node_modules/domelementtype/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/nth-check/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/dom-serializer/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/dom-serializer/node_modules/domelementtype/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/entities/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domelementtype/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/inherits/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/buffer-shims/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/core-util-is/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/isarray/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/process-nextick-args/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/string_decoder/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/util-deprecate/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.assignin/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.bind/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.defaults/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.filter/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.flatten/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.foreach/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.map/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.merge/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.pick/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.reduce/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.reject/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/lodash.some/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/lib/parse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/nth-check/parse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/passthrough.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/lib/procedure.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/promise.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/promise_array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/promise/promise_crawler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/promisify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/props.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/lib/pseudos.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/qq延时提示班/qq延时提示框.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/domutils/lib/querying.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/lib/querying.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/race.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/readable-browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/readable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/css-what/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/domutils/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/domutils/node_modules/domelementtype/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/dom-serializer/node_modules/domelementtype/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/entities/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domelementtype/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/buffer-shims/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/process-nextick-args/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/reduce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/schedule.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/scope.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/scott/imooc/beginning/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/scripts/services.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/settle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/slide上下滚动条/slide上下滚动条.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/some.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/lib/sort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/lib/static.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/lib/internal/streams/stream-browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/lib/internal/streams/stream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/string_decoder/lib/string_decoder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/domutils/lib/stringify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/lib/stringify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/school/student.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/synchronous_inspection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/school/teacher.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/nth-check/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/entities/test/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/core-util-is/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/isarray/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/process-nextick-args/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/thenables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/timers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/views/today.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Yike/api/today.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Angularjs练习/留言+增删/todoMVC.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/domutils/lib/traversal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/domutils/test/tests/traversal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/lib/traversal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/test/tests/traversal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/lib/api/traversing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/using.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/bluebird/js/release/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/node_modules/core-util-is/lib/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/lib/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/css-select/node_modules/domutils/test/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/test/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Angularjs实现跨域/weather.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/writable-browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/htmlparser2/node_modules/readable-stream/writable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/nodejs/http/node_modules/cheerio/node_modules/entities/maps/xml.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/上下滑动的侧边栏.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/二级菜单/二级菜单.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/jQuery练习/五角星案例.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/从中心放大/从中心放大.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/任意值框架.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/仿百度输入框.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/伸缩菜单--同时淡入淡出.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/侧边栏.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/全选功能.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/播放列表收缩展开/列表展开.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/jQuery练习/动态创建表格.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/数码时钟/动态时钟.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/jQuery练习/动态输入案例.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/只能输入数字的文本框.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/右键自定义菜单.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/回到顶部.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/多个div淡入淡出.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/JS/字符串位置方法和字符串模式匹配方法.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/完美运动框架.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/定时器.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/JS/工厂模式和构造函数.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/带重力摩擦的碰撞运动.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/延时提示框.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/弹性div.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/先出来再从透明变实色/弹性运动.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/HTML5/影像地图.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/手风琴.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/拖拽+带框.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/拖拽+捕获(完整版).html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/拖拽+改变大小.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/拖拽+碰撞检测.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/拖拽+磁性吸附.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/拖拽--面向对象.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/拖拽事件.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/拖拽（知道速度）+碰撞+重力.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/jQuery练习/按键变色.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/换class.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/jQuery练习/插件之懒加载.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/jQuery练习/插件之改变背景颜色.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/摩擦力.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/HTML5/放置作者联系信息.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/先出来再从透明变实色/新浪.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/无缝滚动.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/jQuery练习/样式操作.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/JS/正则表达式里的match和exec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/jQuery练习/水果过去按钮.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/播放列表收缩展开/淡入淡出图片.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/滑动的菜单.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/无缝滚动图片/滚动图片.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/电影评分/电影评分.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/css3/盒模型.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/碰撞运动.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/移入移出.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/移动速度逐渐变慢最后在特定位置停住.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/HTML5/绘制图像.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/HTML5/绘制文字与阴影.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/HTML5/绘制颜色渐变的圆点.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/JS/综合.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/淡入淡出图片/缓冲运动.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/网页换肤.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/作业网页换肤/网页换肤2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/jQuery练习/自定义插件/自定义插件.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/自定义滚动条+鼠标滚轮.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/自定义滚动条.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/苹果导航菜单/苹果导航菜单.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/HTML5/表单元素练习.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/jQuery练习/表格全选反选.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/HTML5/表格行合并及单元格的合并.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/让菜单显示或隐藏.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/记录清除用户名.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/选项卡切换.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/Angularjs练习/选项卡切换.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/土豆网悬浮菜单/链试运动例子.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/链试运动框架.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/jQuery练习/隔行变色.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/JS/面向对象.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/面向对象选项卡.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miaoque0/鼠标滚动事件.html" />
+    </list>
+    <ignored path="Task.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Task" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="126密码提示框.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/miaoque0/126密码提示框.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miaoque0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Strawberry" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\web2\Task" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a60d0bb-81bc-4294-b2ed-f8a2d8c1fcc8" name="Default" comment="" />
+      <created>1495964620348</created>
+      <option name="number" value="Default" />
+      <updated>1495964620348</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26121372" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/miaoque0/JS/工厂模式和构造函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaoque0/JS/字符串位置方法和字符串模式匹配方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaoque0/JS/综合.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaoque0/126密码提示框.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

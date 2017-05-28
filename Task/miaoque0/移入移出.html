@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!--<link rel="stylesheet" href="one.css" type="text/css"/>-->
+    <style>
+        #div1{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+    }
+    </style>
+
+    <script type="text/javascript">
+        window.onload = function() {
+            var divr = document.getElementById('div1');
+            divr.onmouseover = toGreen;
+            divr.onmouseout = toRed;
+
+        };
+        function toGreen() {
+            var divone = document.getElementById('div1');
+            divone.style.width='200px';
+            divone.style.height='200px';
+            divone.style.background = "green";
+        }
+        function toRed() {
+            var divone = document.getElementById('div1');
+            divone.style.width='100px';
+            divone.style.height='100px';
+            divone.style.background = "red";
+
+        }
+    </script>
+</head>
+<body>
+
+<div id="div1"></div><!--一般情况不佳行间事件-->
+
+</body>
+</html>

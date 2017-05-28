@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        #div1{
+            width: 100px;
+            height: 100px;
+            background-color: #e84a7e;
+            left: 10px;
+            position: absolute; /*用绝对定位的原因：1.可以相对于宽口定位，即使用left,top等
+                                      2.可以使其覆盖于其余div之上*/
+        }
+    </style>
+    <script type="text/javascript">
+
+        window.onload = function(){
+            var oBtn1 = document.getElementById('btn1');
+            var oBtn2 = document.getElementById('btn2');
+            var oDiv = document.getElementById('div1');
+            var timer = null;
+            oBtn1.onclick = function()
+            {
+                timer = setInterval(function(){
+                  oDiv.style.left = oDiv.offsetLeft+5+'px';
+                },30);
+            };
+            oBtn2.onclick = function()
+            {
+                clearInterval(timer);
+            }
+        };
+    </script>
+</head>
+<body>
+<input id="btn1" type="button" value="向右移动">
+<input id="btn2" type="button" value="停止移动">
+<div id="div1">
+</div>
+</body>
+</html>

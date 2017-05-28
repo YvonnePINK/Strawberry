@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        #div1{
+            width: 100px;
+            height: 100px;
+            background: hotpink;
+        }
+        #btn{
+            width: 50px;
+            height: 20px;
+        }
+    </style>
+    <script src="../miaoque0/仿flash的图片轮转播放器/move.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+    window.onload = function(){
+        var oDiv = document.getElementById('div1');
+        var oBtn = document.getElementById('btn');
+        oBtn.onclick = function(){
+            startMove(oDiv,'width',300,function(){
+                startMove(oDiv,'height',300);
+            })
+        }
+    };
+    //运动停止时，执行函数
+    //运动停止时，开始下一次运动
+</script>
+<div id="div1">
+
+</div>
+<input id="btn" type="button" />
+</body>
+</html>

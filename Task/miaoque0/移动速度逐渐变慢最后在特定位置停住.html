@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+<div id="div1">
+</div>
+<script type="text/javascript">
+    var timer = null;
+    function startMove(iTarget){
+         var oDiv = document.getElementById('div1');
+        clearInterval(timer);
+        timer = setInterval(function(){
+            var iSpeed = (iTarget-div1.offsetLeft)/8;
+            //这里重点是ispeed距离越远，速度越慢
+            iSpeed = iSpeed>0?Math.ceil(iSpeed):Math.floor(iSpeed);
+//            if(iSpeed>0){
+//                iSpeed=Math.ceil(iSpeed);
+//            }
+//            else{
+//                iSpeed=Math.floor(iSpeed);
+//
+//            }
+
+//            if(oDiv.offsetLeft<iTarget){
+//                   iSpeed=iTarget-div1.offsetLeft;
+//
+//            }
+//            else{
+//                iSpeed=-(iTarget-div1.offsetLeft);
+//            }
+            if(oDiv.offsetLeft==iTarget)
+            {
+                clearInterval(timer);
+            }
+            else
+            {
+                oDiv.style.left=oDiv.offsetLeft+iSpeed+'px';
+            }
+        },30)
+    }
+</script>
+</body>
+</html>

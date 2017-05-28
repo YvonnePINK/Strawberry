@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    window.onload = function(){
+        //获得绘图区域
+        var ctx = document.getElementById('myPic').getContext('2d');
+        //建立图像绘制的来源
+        var myImg = new Image();
+        myImg.src = './b.jpg';
+        //当图片文件载入完成后
+        myImg.onload = function(){
+            //绘制图像,createPattern(image,type)
+            //包括：repeat-x,repeat-y,repeat,no-repeat
+            var paintImg = ctx.createPattern(myImg,'repeat');
+            ctx.fillStyle = paintImg;
+            ctx.fillRect(0,0,800,300);
+        }
+
+    }
+</script>
+<canvas id="myPic" width="800" height="300"></canvas>
+<!--配置图片式按钮-->
+<input type="image" src="b.jpg" alt="发送">
+</body>
+</html>

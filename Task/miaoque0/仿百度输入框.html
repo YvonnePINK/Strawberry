@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        article{
+            margin: 100px auto;
+            width:380px;
+            height: auto;
+            font-size: 12px;
+        }
+        input:first-child{
+            line-height: 20px;
+            width: 300px;
+            height: 20px;
+            float: left;
+        }
+        input:nth-child(2){
+            width: 70px;
+            height: 25px;
+            background-color: dodgerblue;
+            color: #ffffff;
+            border: none;
+            float: left;
+        }
+
+    </style>
+</head>
+<body>
+<article>
+<input type="text" list="opt"  placeholder="请搜索" />
+<input type="button" value="百度一下">
+<datalist id="opt">
+    <option label="上海" value="shanghai"></option>
+    <option label="深圳" value="shenzheng"></option>
+    <option label="北京" value="beijing"></option>
+    <option label="杭州" value="hangzhou"></option>
+</datalist>
+</article>
+</body>
+</html>

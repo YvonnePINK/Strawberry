@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #div1{
+            width: 200px;
+            height: 40px;
+            background-color: hotpink;
+            display: none;
+        }
+        .div2{
+            line-height: 40px;
+            text-align: center;
+            color: darkorchid;
+
+        }
+    </style>
+</head>
+<body>
+<label  onmouseover="document.getElementById('div1').style.display='block'"
+        onmouseout="document.getElementById('div1').style.display='none'">
+ <input type="checkbox"  />自动登录
+</label> <!--此时label的作用就是使自动登录和前面的选择点聚焦到一起-->
+<div id="div1">
+    <div class="div2">不要在网吧上网</div>
+</div>
+</body>
+</html>

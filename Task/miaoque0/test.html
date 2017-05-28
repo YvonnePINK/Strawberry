@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        *{
+            font-family: sans-serif;
+            font-size: 14px;
+        }
+        article{
+            width: 800px;
+            margin: 0 auto;
+        }
+        .div1{
+            margin-left: 50px;
+        }
+        .div2{
+            display: flex;
+            margin-left: 50px;
+        }
+        .div2 .divt{
+            flex: 6;
+        }
+        .divs{
+            flex: 1;
+        }
+        .divs #btn{
+            color: #FFFFFF;
+            background-color: #99CCCC;
+            border-radius: 10%;
+            border-style: none;
+            width: 50px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            font-size: 12px;
+        }
+        table{
+            width: 700px;
+            height: 150px;
+            margin: 50px auto;
+            border-bottom: 1px solid #cccccc;
+            border-collapse:collapse;
+        }
+        .th{
+            background-color: #E0E0E0;
+            color:  #007979;
+        }
+        .tr{
+          border-bottom: 1px solid #cccccc;
+          border-top: 1px solid #cccccc;
+      }
+        td{
+            text-align: center;
+            border-bottom: 1px solid #99CCCC;
+
+        }
+       .div3{
+           margin-left: 50px;
+           margin-top: 50px;
+        }
+        .div4{
+            margin-left: 50px;
+            margin-top: 80px;
+        }
+        .div5{
+            display: flex;
+        }
+        .div5 .divt{
+            flex: 6;
+        }
+        .div5 .divs{
+            flex: 1;
+        }
+        .div6{
+            margin-top: 30px;
+        }
+        .div7{
+            width: 400px;
+            margin: 50px auto;
+        }
+        .div7 #canvas{
+            width: 100%;
+            height: auto;
+            padding-left: 60px;
+        }
+    </style>
+</head>
+<body>
+<article>
+<div class="div0">
+  <div class="div1">
+    <p>姓名：刘先进</p>
+  </div>
+    <div class="div2">
+        <div class="divt">身份证号码：3832999392</div>
+        <div class="divs"><input type="button" id="btn" value="查看"></div>
+    </div>
+</div>
+<table class="ta">
+    <thead class="th">
+    <tr class="tr">
+        <td width="230px"></td>
+        <td  width="190px">信用卡</td>
+        <td  width="190px">住房贷款</td>
+        <td  width="190px">其他贷款</td>
+    </tr>
+    </thead>
+    <tbody style="color: grey">
+    <tr class="tr">
+        <td style="text-align: left">账户数</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+    </tr>
+    <tr class="tr">
+        <td style="text-align: left">未结清、未销户账户数</td>
+        <td >2</td>
+        <td >3</td>
+        <td >0</td>
+    </tr>
+    <tr class="tr">
+        <td style="text-align: left">发生过逾期的账户数</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr class="tr">
+        <td style="text-align: left">发生过90天以上逾期的账户数</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr class="tr">
+        <td style="text-align: left">为他人担保笔数</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    </tbody>
+</table>
+<div class="div3">
+    <p>个人<strong>数据构成</strong></p>
+    <p>发生过逾期的货记卡账户明细如下：</p>
+    <p style="width:710px">1.2015年6月30日贵阳农商行发放的代价（人民币账户），截止2017年4月，信用额度15000，已使用额度1000，最近五年有1个月处于逾期状态，没有发生过90天以上逾期</p>
+    <p>从未逾期过的货记卡及透支未超过60天的准贷记卡账户明细如下：</p>
+    <p>2.2007年4月26日交通银行发放的货记卡（美元账户），2012年6月销户。</p>
+    <p>3.2007年4月26日交通银行发放的货记卡（人民币账户），2012年6月销户。</p>
+</div>
+<div class="div4">
+    <div class="div5">
+        <div class="divt">清镇市诚信管理平台金融综合信息等级：二级</div>
+        <div class="divs"><input type="button" id="btn" value="查看"></div>
+    </div>
+    <div class="div6">
+        <div class="divt">最近分析时间：2017-03-31 18:30:00</div>
+    </div>
+</div>
+    <div class="div7"><canvas id="canvas"></canvas></div>
+    <p style="padding-left: 50px">综合评价：符合贷款条件，批准贷款动作</p>
+</article>
+<script type="text/javascript">
+    window.onload = function(){
+        var canvas=document.getElementById("canvas");
+        var cxt=canvas.getContext("2d");
+        cxt.beginPath();
+        cxt.arc(80,80,50,0,(1/3)*2*Math.PI,false);
+        cxt.lineWidth=30;
+        cxt.strokeStyle="#99CCCC";
+        cxt.stroke();//画空心圆
+        cxt.closePath();
+        cxt.beginPath();
+        cxt.arc(80,80,50,0,(1/3)*2*Math.PI,true);
+        cxt.lineWidth=30;
+        cxt.strokeStyle="#FFCCCC";
+        cxt.stroke();
+        cxt.closePath();
+        cxt.beginPath();
+    }
+</script>
+</body>
+</html>

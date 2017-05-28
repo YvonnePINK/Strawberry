@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        #div1{
+            background: red;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            z-index: 1;
+        }
+        #div2{
+            background: blue;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            left: 200px;
+            top: 200px;
+        }
+    </style>
+</head>
+<body>
+<script type="text/javascript">
+window.onload = function(){
+    var oDiv1 = document.getElementById('div1');
+    var oDiv2 = document.getElementById('div2');
+    var disX =0;
+    var disY =0;
+    oDiv1.onmousedown = function(ev){
+         var oEvent = ev||event;
+        disX= oEvent.clientX -oDiv1.offsetLeft;
+        disY= oEvent.clientY - oDiv1.offsetTop;
+        document.onmousemove =function(ev){
+            var oEvent = ev||event;
+            oDiv1.style.left = oEvent.clientX-disX+'px';
+            oDiv1.style.top = oEvent.clientY-disY+'px';
+            var l1 = oDiv1.offsetLeft;
+            var r1 = oDiv1.offsetLeft+oDiv1.offsetWidth;
+            var t1 = oDiv1.offsetTop;
+            var b1 = oDiv1.offsetTop+oDiv1.offsetHeight;
+            var l2 = oDiv2.offsetLeft;
+            var r2 = oDiv2.offsetLeft+oDiv2.offsetWidth;
+            var t2 = oDiv2.offsetTop;
+            var b2 = oDiv2.offsetTop+oDiv2.offsetHeight;
+            if(r1<l2 || l1>r2 || t1>b2 ||b1<t2){
+                oDiv2.style.background = 'blue';
+            }
+            else {
+             oDiv2.style.background = 'grey';
+
+            }
+        };
+        document.onmouseup = function(){
+            document.onmousemove=null;
+            document.onmouseup = null;
+        }
+    };
+
+}
+</script>
+<div id="div1"></div>
+<div id="div2"></div>
+</body>
+</html>

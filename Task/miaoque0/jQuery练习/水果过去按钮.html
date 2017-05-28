@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    $(function(){
+        $("button").eq(0).click(function(){
+            $("#sel2").append($("#sel1 option"));
+        });
+        $("button").eq(1).click(function () {
+            $("#sel1").append($("#sel2 option"));
+        })
+        $("button").eq(2).click(function(){
+            $("#sel2").append($("#sel1 option:selected"));
+        });
+        $("button").eq(3).click(function () {
+            $("#sel1").append($("#sel2 option:selected"));
+        })
+    })
+</script>
+<select id="sel1" size="10" multiple>
+    <option >香蕉</option>
+    <option >苹果</option>
+    <option >鸭梨</option>
+    <option >葡萄</option>
+</select>
+<button>>>></button>
+<button><<<</button>
+<button>></button>
+<button><</button>
+<select id="sel2" size="10" multiple>
+
+</select>
+</body>
+</html>

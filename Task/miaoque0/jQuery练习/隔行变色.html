@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="jquery-1.11.1.min.js"></script>
+    <script>
+        $(function () {
+            //隔行变色
+            var jqli1 = $("li:odd");
+            var jqli2 = $("li:even");
+            jqli1.css("background","pink");
+            jqli2.css("background","red");
+            //鼠标进入变色，移开恢复
+            //计数器
+            var color ="";
+            $("li").mouseenter(function(){
+                color = $(this).css("background");
+                $(this).css("bakground","blue");
+
+            });
+
+            $("li").mouseleave(function(){
+                $(this).css("background",color);
+            })
+
+        })
+    </script>
+</head>
+<body>
+<ul>
+    <li>dhfahfkdsfkds</li>
+    <li>dhfahfkdsfkds</li>
+    <li>dhfahfkdsfkds</li>
+    <li>dhfahfkdsfkds</li>
+    <li>dhfahfkdsfkds</li>
+    <li>dhfahfkdsfkds</li>
+    <li>dhfahfkdsfkds</li>
+    <li>dhfahfkdsfkds</li>
+
+</ul>
+</body>
+</html>

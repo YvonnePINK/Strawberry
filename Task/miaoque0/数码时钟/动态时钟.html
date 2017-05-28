@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript">
+//        window.onload = function(){
+//            var oData = new Date();//获取系统时间
+//            var str = oData.getHours()+'点'+oData.getMinutes()+'分'+oData.setSeconds()+'秒';
+//
+//        };
+     function toDouble(num){
+
+         if(num<10){
+             return '0'+num;
+         }
+         else{
+             return ''+num;
+         }
+     }
+
+    window.onload = function(){
+               var oImg = document.getElementsByTagName('img');
+               var i = 0;
+               function updateTime(){
+                  var oDate = new Date();
+                   var str ='' +toDouble(oDate.getHours())+toDouble(oDate.getMinutes())+toDouble(oDate.getSeconds());//即为一个字符串
+                   for (i=0;i<oImg.length;i++){
+                      oImg[i].src = 'imgs/'+str.charAt(i)+'.png';
+                  }
+              }
+            setInterval(updateTime,1000);
+            updateTime();//在页面加载的时候立即调用这个函数，
+                         // 使其刚开始就显示当前时间，而不是00 00 00
+    }
+    </script>
+</head>
+<body style="color: #ffff00;background-color: #e84a7e;font-size: 50px">
+<img src="imgs/0.png" />
+<img src="imgs/0.png" />
+点
+<img src="imgs/0.png" />
+<img src="imgs/0.png" />
+分
+<img src="imgs/0.png" />
+<img src="imgs/0.png" />
+秒
+</body>
+</html>

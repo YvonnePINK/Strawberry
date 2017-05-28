@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        #ull
+        {
+          width: 366px;
+            margin: 0 auto;
+        }
+        #ull li
+        {
+            width: 100px;
+            height: 100px;
+            float: left;
+            margin: 10px;
+            list-style: none;
+            background: #ccc;
+            border: 1px solid black;
+
+        }
+
+    </style>
+</head>
+<body>
+<ul id="ull">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<<script src="../move2.js"></script>
+<script>
+    window.onload = function(){
+        var oUl = document.getElementById('ull');
+        var aLi = oUl.getElementsByTagName('li');
+        var i=0;
+        var iMinZindex=2;
+        //布局转换
+        for(i=0;i<aLi.length;i++){
+            aLi[i].style.left=aLi[i].offsetLeft+'px';
+            aLi[i].style.top = aLi[i].offsetTop+'px';
+        }
+        for(i=0;i<aLi.length;i++){
+            aLi[i].style.position='absolute';
+        }
+        //加事件
+        for(i=0;i<aLi.length;i++)
+        {
+            aLi[i].onmouseover=function(){
+                this.style.zIndex=iMinZindex++; //使每次点击的层级加一
+                startMove(this,{width:'200',height:'200',marginLeft:'-50'
+                ,marginTop:-50});
+            };
+            aLi[i].onmouseout=function(){
+                startMove(this,{width:'100',height:'100',marginLeft:'0'
+                    ,marginTop:0});
+            }
+        }
+    }
+</script>
+</body>
+</html>

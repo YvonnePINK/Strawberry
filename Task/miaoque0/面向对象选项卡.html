@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        input{
+            background: white;
+        }
+
+        .active{
+            background-color: palevioletred;
+            border: 1px solid peru;
+
+        }
+        #div1  div{
+            width: 200px;
+            height: 200px;
+            background-color:#ccc;
+            display: none;
+        }
+    </style>
+    <script type="text/javascript">
+        window.onload =function(){
+            var oTab = new TabSwitch('div1');
+        };
+        function TabSwitch(id){
+            var oDiv =document.getElementById('id');
+            this.oBtn = oDiv.getElementsByTagName('input');
+            this.aDiv = oDiv.getElementsByTagName('div');
+            var i = 0;
+            _this=this;//而这里的this是new出来的对象
+            for (i=0;i<oBtn.length;i++){
+                this.oBtn[i].index= i;
+//                this.oBtn[i].onclick = this.tab;
+                this.oBtn[i].onclick = function(){
+//                    this.tab(); 此时this是个按钮，调不到tab方法
+                     _this.tab(this);  //此时this是new出来的对象，刚好调用tab方法
+                };                     //把this通过参数形式传到这里面
+            }
+        }
+        TabSwitch.prototype.tab = function(oBtn){
+            for(i=0;i<oBtn.length;i++){
+//              oBtn[i].className='';
+                this.oBtn[i].className='';//不再是变量而是属性，加this
+                this.aDiv[i].style.display='none';
+
+
+            }
+            oBtn.className='active';
+            //this.className这里的this应该是个按钮，但偏偏是个new出来的对象
+            // alert('点击了第'+this.index+'个按钮');
+            this.aDiv[this.index].style.display='block';
+        };
+
+    </script>
+</head>
+<body>
+<div id="div1">
+    <input type="button" class="active" value="1">
+    <input type="button" value="2">
+    <input type="button" value="3">
+    <div style="display: block">111</div>
+    <div>222</div>
+    <div>333</div>
+</div>
+</body>
+</html>

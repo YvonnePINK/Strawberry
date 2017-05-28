@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+       article{
+           width: 150px;
+           height: 400px;
+           border: 1px solid grey;
+           font-family: monospace;
+           font-size: 12px;
+           background-color: lightgoldenrodyellow;
+       }
+      article header{
+          width: 150px;
+          height: 20px;
+          line-height: 20px;
+          color: grey;
+          border-bottom: 1px solid grey;
+      }
+     #amg{
+         margin: 10px 15px;
+     }
+    p{
+       margin:-5px 20px;
+        color: grey;
+    }
+   .sun1{
+       float: left;
+       margin-top: 10px;
+       margin-left: 15px;
+   }
+       .sun2{
+           float: left;
+           margin-top: 10px;
+           margin-left: 5px;
+       }
+       .sun3{
+           float: left;
+           margin-top: 10px;
+           margin-left: 5px;
+       }
+        .ull{
+            list-style: none;
+            float: left;
+            padding: 30px;
+        }
+     #hidden{
+         position: absolute;
+         width: 300px;
+         height: 200px;
+         border: 1px solid grey;
+         background-color: aliceblue;
+         display: none;
+     }
+      .tu{
+          margin: 10px 15px;
+          float: left;
+      }
+
+     .zi{
+         margin: 30px;
+     }
+    </style>
+</head>
+<body>
+<article>
+    <header>miaov.com</header>
+    <div>
+        <div id="hidden">
+            <div class="tu"><img src="images/1.jpg"></div>
+            <table class="zi">
+          <tr>
+              <th>1</th>
+              <th>2</th>
+              <th>4</th>
+              <th>3</th>
+          </tr>
+                <tr>
+                    <td>23</td>
+                    <td>21</td>
+                    <td>443</td>
+                    <td>22</td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>43</td>
+                    <td>534</td>
+                    <td>64</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+
+
+        </div>
+        <div id="amg"><img src="images/1.jpg"/> </div>
+        <p>miaov.com</p>
+        <div class="sun1"><img src="images/star_level3.gif"/></div>
+        <div class="sun2"><img src="images/star_level3.gif"/></div>
+        <div class="sun3"><img src="images/star_level3.gif"/></div>
+
+    </div>
+
+    <ul class="ull">
+        <li>体力  3850</li>
+        <li>体力  3850</li>
+        <li>体力  3850</li>
+        <li>体力  3850</li>
+        <li>体力  3850</li>
+        <li>体力  3850</li>
+        <li>体力  3850</li>
+    </ul>
+
+</article>
+<script type="text/javascript">
+    window.onload = function(){
+        var oamg = document.getElementById('amg');
+        var ohin = document.getElementById('hidden');
+        oamg.onmouseover = function(){
+            ohin.style.display='block';
+        };
+        oamg.onmouseout = function(){
+            ohin.style.display='none';
+
+        }
+    };
+
+</script>
+</body>
+</html>

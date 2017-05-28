@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        #div1{
+            background: hotpink;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            left: 0;
+            top: 50px;
+        }
+    </style>
+</head>
+<body>
+<textarea id="text1" rows="10" cols="40"></textarea>
+<input type="button" value="开始运动" onclick="startMove()" />
+<div id="div1"></div>
+<script type="text/javascript">
+    var iSpeed = 20;
+    function startMove(){
+        var oDiv = document.getElementById('div1');
+        setInterval(function(){
+            iSpeed*=0.95;
+            oDiv.style.left = oDiv.offsetLeft+iSpeed+'px';
+            document.getElementById('text1').value+=iSpeed+'\n';
+        },30)
+    }
+
+</script>
+</body>
+</html>

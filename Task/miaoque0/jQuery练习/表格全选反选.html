@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<script>
+    $("#j_cbAll").click(function () {
+        //需求1：点击上面的多选按钮，下面的所有多选按钮都和上面的一致
+        //步骤：绑定事件，直接让下面的所有按钮和上面的按钮属性一样
+       $("#j_tb input:checkbox").prop("checked",$(this).prop("checked"))
+    });
+$("#j_jb input:checkbox").click(function () {
+       //需求2：点击下面的多选按钮，判断下面的所有多选按钮都是否全部被选定
+      //判断，只要所有被选定，上面才被选定
+    //技术点：带有checked属性的标签和checkbox个数一样多的时候，才表示全选
+    if($("#j_tb input:checkbox").length===$("#j_tb input:checked").length){
+        $("#j_cbAll").prop("checked",true);
+    }else{
+        $("#j_cbAll").prop("checked",false);
+    }
+})
+</script>
+<body>
+
+</body>
+</html>

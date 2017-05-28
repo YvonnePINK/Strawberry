@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+       #btn1{
+           position: fixed;
+           bottom: 0;
+           right: 0;
+       }
+    </style>
+    <script type="text/javascript">
+        var oBtn = document.getElementById('btn1');
+        var bSys = true;  //系统让他滚动的
+        var timer = null;
+        //如何检测用户拖动了滚动条
+        window.onscroll = function(){
+            if(!bSys){
+                //用户滚动的，所以此时关闭定时器
+                clearInterval(timer);
+            }
+            bSys=false;
+        };
+        oBtn.onclick= function(){
+            timer = setInterval(function(){
+                var scollTop = document.documentElement.scrollTop||document
+                                .body.scrollTop;
+                var iSpeed = Math.floor((0-scollTop)/8) ;//向下取整
+                if(scollTop==0){
+                    clearInterval(timer);
+                }
+                document.documentElement.scrollTop=document.body.scrollTop = scollTop + iSpeed;
+            },30)
+        }
+    </script>
+</head>
+<body style="height: 2000px">
+ 1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br />10<br />11<br />12<br />13<br />
+ 14<br />15<br />16<br />16<br />16<br />16<br />1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br />10<br />11<br />12<br />13<br />
+ 14<br />15<br />16<br />16<br />16<br />16<br />1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br />10<br />11<br />12<br />13<br />
+ 14<br />15<br />16<br />16<br />16<br />16<br />1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br />10<br />11<br />12<br />13<br />
+ 14<br />15<br />16<br />16<br />16<br />16<br />1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br />10<br />11<br />12<br />13<br />
+ 14<br />15<br />16<br />16<br />16<br />16<br /> 14<br />15<br />16<br />16<br />16<br />16<br />
+ 14<br />15<br />16<br />16<br />16<br />16<br />
+<input id="btn1" type="button" value="回到顶部" />
+</body>
+</html>

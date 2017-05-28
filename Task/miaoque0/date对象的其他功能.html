@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript">
+        function toChinese(day){
+            switch (day){
+                case 0:
+                    return '日';
+                case 1:
+                    return '一';
+                case 2:
+                    return '二';
+                case 3:
+                    return '三';
+                case 4:
+                    return '四';
+                case 5:
+                    return '五';
+                case 6:
+                    return '六';
+            }
+        }
+        var oDate = new Date();
+         var str = oDate.getFullYear()+'年'+(oDate.getMonth()+1)+'月'
+                 +(oDate.getDate())+'日'+'星期'+toChinese(oDate.getDay());
+        alert('现在是：'+str);
+        //因为在年月日里，月从0开始，星期日为星期0，所以要改
+        //字符串链接里，若全加则为数学里的加，需要有''间隔
+    </script>
+</head>
+<body>
+
+</body>
+</html>

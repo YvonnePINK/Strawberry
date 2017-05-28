@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+
+    </style>
+    <script type="text/javascript">
+    window.onload = function(){
+        var oTxt = document.getElementById('txt1');
+        oTxt.onkeydown = function (ev)
+        {
+            //0 48
+            //9 57
+            //只给输入数字和使用退格
+            //退格的keycode为8
+            if(event.keyCode!=8 && event.keyCode<48 || event.keyCode>57)
+            {
+                return false;
+            }
+           // return false;
+        }
+    }
+    </script>
+</head>
+<body>
+<input id="txt1" type="text" />
+</body>
+</html>

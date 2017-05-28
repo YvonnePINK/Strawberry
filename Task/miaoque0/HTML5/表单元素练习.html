@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<!-建立组合表单列表-->
+<form>
+    <select>
+        <optgroup label="静态活动">
+            <option value="看电影">看电影</option>
+            <option value="看电影">听音乐</option>
+            <option value="看电影">电脑游戏</option>
+        </optgroup>
+        <optgroup label="球类活动">
+            <option value="棒球">棒球</option>
+            <option value="篮球">篮球</option>
+            <option value="乒乓球">乒乓球</option>
+            <option value="乒乓球">羽毛球</option>
+        </optgroup>
+    </select>
+</form>
+<!--label标签使用-->
+<form name="myForm" id="myForm">
+    请选择你喜欢的水果:<br/>
+    <input type="checkbox" value="香蕉"/>
+    <label for="bann">香蕉</label>
+    <input type="checkbox" value="香蕉"/>
+    <label for="apple">苹果</label>
+    <input type="checkbox" value="香蕉"/>
+    <label for="wat">西瓜</label>
+    <input type="checkbox" value="香蕉"/>
+    <label for="pin">梨子</label>
+</form>
+<!--动态数据输出-->
+<form name="myForm" id="myForm">
+    <input type="number" id="a"/>+
+    <input type="number" id="b"/>=
+    <output onforminput="value=Number(a.value)+Number(b.value)">总和</output>
+</form>
+<!--进度条-->
+<h3>当前网页载入进度</h3>
+<form name="myForm" id="myForm">
+    <progress max="100" value="20">20%</progress>
+</form>
+<!--度量条--->
+<h3>考试成绩分析</h3>
+<form name="myForm" id="myForm">
+    您的成绩
+    <meter max="100" value="65" low="55" high="80" optimum="90">65分</meter>
+</form>
+
+</body>
+</html>

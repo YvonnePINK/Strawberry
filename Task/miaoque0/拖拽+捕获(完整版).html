@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        #div1 {
+            background: red;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+    </style>
+    <script type="text/javascript">
+        window.onload = function () {
+            var oDiv = document.getElementById('div1');
+            oDiv.onmousedown = function (ev) {
+                var oEvent = ev || event;
+                disX = oEvent.clientX - oDiv.offsetLeft;//等于鼠标的位置减去div的left
+                disY = oEvent.clientY - oDiv.offsetTop;
+                if (oDiv.setCapture) {
+                    oDiv.onmousemove = fnMove;
+                    oDiv.onmouseup = fnUp;
+                    oDiv.setCapture();   //IE下能用。在移动的过程中不会选中文字
+                }
+                else {
+                    document.onmousemove = fnMove;
+                    document.onmouseup = fnUp;
+                }
+                function fnMove(ev) {
+                    var oEvent = ev || event;
+                    oDiv.style.left = oEvent.clientX - disX + 'px';
+                    oDiv.style.top = oEvent.clientY - disY + 'PX';
+                }
+                function fnUp(ev) {
+                    this.onmousemove = null;
+                    this.onmouseup = null;
+                    if(this.releaseCapture)
+                    {
+                       this.releaseCapture();//鼠标抬起释放捕获，此时可以选中文字，恢复之前默认
+                    }
+                }
+                return false;
+            };
+
+        }
+
+    </script>
+</head>
+<body>
+<div id="div1"></div>
+<p>sdjcsadns</p>
+</body>
+</html>

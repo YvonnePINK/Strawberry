@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>网页换肤</title>
+    <link id="link1" href="style/css1.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="div1">
+    <header>
+        <div class="div2">
+            可以换肤的提示框：
+        </div>
+          <input id="fu2" type="button" value="皮肤二" />
+          <input id="fu1" type="button" value="皮肤一" />
+    </header>
+    <article >
+       <div class="pa"><div class="name">输入姓名：</div><input class="name2" type="text" placeholder="请输入您的姓名"/>
+
+       </div>
+        <div class="pa"><div class="pass">输入密码：</div><input class="pass2" type="password" placeholder="请输入您的密码"/></div>
+        <div class="pa"><div class="mes">请你留言:</div><textarea class="mes2" rows="40" cols="30"></textarea></div>
+        <div class="btu"><input type="button" value="提交"/></div>
+    </article>
+</div>
+<script type="text/javascript">
+  window.onload = function(){
+      var olink = document.getElementById('link1');
+      var ofu1 = document.getElementById('fu1');
+      var ofu2 = document.getElementById('fu2');
+      ofu1.onclick = function(){
+          olink.href='style/css1.css'
+
+      };
+      ofu2.onclick = function(){
+          olink.href='style/css2.css'
+
+      }
+
+  }
+
+
+</script>
+</body>
+</html>

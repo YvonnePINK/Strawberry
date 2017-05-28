@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        #img1{
+            filter: alpha(opacity:30);
+            opacity: 0.3;
+        }
+    </style>
+</head>
+<body>
+<img id="img1" src="images/boy.jpg" />
+<script type="text/javascript">
+    window.onload = function(){
+        var  oImg = document.getElementById('img1');
+        oImg.onmouseover = function(){
+            startMove(100);
+        };
+        oImg.onmouseout = function(){
+            startMove(30);
+        }
+    };
+    var timer = null;//js里的全局变量和局部变量是按照function代码块来划分的，
+                 // 与if、else无关
+
+    var alpha=30;//用变量存储透明度
+    function startMove(iTarget)
+{
+    var  oImg = document.getElementById('img1');
+    clearInterval(timer);
+    timer = setInterval(function(){
+        //w为什么把var alpha=30; 放入这个位置不行
+        var iSpeed = 0;
+      if(alpha<iTarget)
+      {
+         iSpeed=1;
+      }
+        else{
+          iSpeed=-1;
+      }
+      if(alpha==iTarget)
+      {
+         clearInterval(timer);
+      }
+      else{
+          alpha+=iSpeed;
+          oImg.style.filter='alpha(opacity:'+alpha+')';
+          oImg.style.opacity = alpha/100;
+          document.title = alpha;
+        }
+    },30);
+}
+</script>
+</body>
+</html>

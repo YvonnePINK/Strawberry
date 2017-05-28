@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h3>影像地图操作</h3>
+<map id="myMap">
+    //coords的值：circle的话，（圆心X，圆心Y，半径）
+   <area href="http://forum.twts.com" shape="circle" coords="311,111,98" title="麻辣家族讨论区"
+           alt="麻辣家族" tabindex="2"/>
+    //poly的话，（各顶点的X,Y坐标  ）
+    <area href="http://valor.twts.com" shape="poly" coords="475,212,593,297,548,428,409,427,361,295" title="麻辣家族讨论区"
+          alt="麻辣家族" tabindex="2"/>
+    <area href="http://twbts.twts.com" shape="poly" coords="138,201,170,293,262,284,184,337,227,433,148,372,68,440,100,340,13,291,120,291" title="麻辣家族讨论区"
+          alt="麻辣家族" tabindex="2"/>
+</map>
+<p>
+    <img src="img.jpg" width="600" height="450" alt="网站链接" usemap="#myMap"/>
+</p>
+</body>
+</html>

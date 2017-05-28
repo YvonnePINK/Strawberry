@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        div{
+            height: 100px;
+            background-color: pink;
+            margin: 10px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<button>
+</button>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<script type="text/javascript">
+     //window.onload事件
+    $(document).ready(function () {
+//        var btn  = document.getElementsByTagName("button")[0];
+//        var oDiv = document.getElementsByTagName("div");
+        //获取元素,根据标签名获取元素
+        var jQbtn = $("button");
+        var jQdiv =$("div");
+//        btn.onclick = function(){
+//            for(var i=0;i<oDiv.length;i++){
+//                oDiv[i].style.display = "block";
+//                oDiv[i].innerText = "拥抱变化";
+//            }
+//        }
+        //绑定事件,事件绑定是通过方法绑定的
+        jQbtn.click(function(){
+            //事件驱动程序
+            //显示盒子
+            //设置内容
+//            jQdiv.show();
+//            jQdiv.html("拥抱变化！");
+            jQdiv.show(3000).html("拥抱变化");
+            //1、链式编程    2、隐式迭代
+        });
+    })
+
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    window.onload = function draw(){
+        var ctx = document.getElementById('myPic').getContext('2d');
+        //设置阴影
+        ctx.shadowOffsetX = 10;
+        ctx.shadowOffsetY = 10;
+        ctx.shadowBlur = 2;
+        ctx.shadowColor = 'rgba(245,90,210,0.5)';
+        //设定文字样式
+        ctx.font = '24px 楷体';
+        ctx.fillStyle = 'blue';
+        //x,y的坐标
+        ctx.fillText('canvas元素是HTML5标准中新增的元素。',5,30);
+
+        ctx.shadowColor = 'rgb(100,0,250,0.5)';
+        ctx.fillStyle = 'rgb(110,210,50)';
+        ctx.fillText('真尼玛的烦。',5,60)
+    }
+</script>
+<canvas id="myPic" width="600" height="150"></canvas>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+
+    str = "abbb34eftab0modabbbbb6";
+    var reg = /a(b)+(\d+)/ig;
+    var arr = str.match(reg);
+    for(var i = 0; i < arr.length; i++) {
+        document.write(arr[i]+"----->");
+    }
+
+//下面这个无论有没有g结果都不是g的结果
+    str = "abbb34eftab0modabbbbb6";
+    var reg = /a(b)+(\d+)/ig;
+   while((arr = reg.exec(str))!=null){
+       document.write(arr[0]+'---->')
+   }
+
+
+</script>
+</body>
+</html>

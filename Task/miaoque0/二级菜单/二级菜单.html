@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+
+    </style>
+    <script type="text/javascript">
+        var oDiv = document.getElementById('nav');
+        var oLi = oDiv.getElementsByTagName('li');
+        var i = 0;
+          for(i=0;i<oLi.length;i++){
+              if(oLi[i].className=='nav_li'){
+                  oLi[i].onmouseover = function(){
+                      var oH2 = this.getElementsByTagName('h2')[0];
+                      var oDivList = this.getElementsByTagName('div')[0];
+                      oH2.className = 'active';
+                      oDivList.style.display = 'block';
+                  };
+                  oLi[i].onmouseout = function(){
+                      var oH2 = this.getElementsByTagName('h2')[0];
+                      var oDivList = this.getElementsByTagName('div')[0];
+                      oH2.className = '';
+                      oDivList.style.display = 'none';
+                  }
+              }
+              else if (oLi[i].className=='list_li'){
+                  oLi[i].onmouseover = function(){
+                      var oDiv = this.getElementsByTagName('div')[0];
+                      oDiv.style.display = 'block';
+                  };
+                  oLi[i].onmouseout = function(){
+                      var oDiv = this.getElementsByTagName('div')[0];
+                      oDiv.style.display = 'none';
+                  };
+              }
+
+
+          }
+    </script>
+</head>
+<body>
+<div id="nav">
+    <div class="nav_ul"></div>
+    <ul class="nav_ul">
+        <li class="nav_li">
+            <h2>妙趣课堂</h2>
+            <div class="list">
+                <div class="list1"></div>
+                <ul class="list_ul">
+                    <li class="list_li">
+                        <p>课程设置</p>
+                        <div class="child_list">
+                           <h3>课程设置</h3>
+                            <ul>
+                                <li><a href="#">精通js开发课程</a></li>
+                                <li><a href="#">高级页面架构课程</a></li>
+                                <li><a href="#">网页制作课程</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

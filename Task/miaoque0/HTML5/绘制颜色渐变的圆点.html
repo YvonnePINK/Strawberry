@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>canvas</title>
+</head>
+<body >
+<script type="text/javascript">
+ window.onload = function draw(){
+        var ctx = document.getElementById('myPic').getContext('2d');
+        for(var i=0;i<12;i++){
+            for(var j=0;j<24;j++){
+                ctx.fillStyle = 'rgb(0,'+Math.floor(255-11.5*i) + ','+Math.floor(255-11.5*j) + ')';
+                ctx.beginPath();
+                ctx.arc(12.5+j*25,12.5+i*25,10,0,Math.PI*2,true);
+                ctx.fill();
+            }
+        }
+    }
+</script>
+<canvas id="myPic" width="600" height="300"></canvas>
+</body>
+</html>

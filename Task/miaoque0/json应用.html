@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    function setStyle(obj,json){
+        var attr='';
+        for(attr in json)
+        {
+            obj.style[attr]=json[attr];
+        }
+//        obj.style[attr]=value;
+    }
+    window.onload  = function(){
+        var oDiv = document.getElementById('div1');
+        setStyle(oDiv,{width='200px',height='200px',background='green'})
+    }
+</script>
+<div id="div1"></div>
+</body>
+</html>

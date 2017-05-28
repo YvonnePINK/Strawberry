@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        *{
+            font-family: sans-serif;
+            font-size: 15px;
+        }
+    #div1{
+        width: 500px;
+        height: 20px;
+        position: relative;
+        margin: 150px auto;
+        background: lightgray;
+    }
+        #div2{
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            background: pink;
+            cursor: pointer;
+        }
+        #div3{
+            width: 300px;
+            height: 400px;
+            position: relative;
+            border: 1px solid grey;
+            /*overflow: hidden;*/
+        }
+        #div4{
+            width: 300px;
+            position: absolute;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+<div id="div1">
+    <div id="div2"></div>
+</div>
+<div id="div3">
+    <div id="div4">
+        　1、这个秋天有很多的冰冷，这个秋夜满眼是红树，满眼寂寂，又听得清角吹寒，呜呜咽咽，空空荡荡，端的是素秋难敌，风雨愁煞人，不如怀念。
+        　　2、在这个深秋，我看到的是秋天的多变：既看到了秋天的收获，又看到了秋天的无奈，也看到了秋天的迷惘，更多的是看到秋天的伤感……
+        　　3、那个秋天，也是秋风起，也是落叶黄，落叶在树的身边随风盘旋，带着一丝的无奈、一丝的落寂、一丝的不舍，低低的吟唱着离别的歌，和那棵她曾经深爱过的大树告别。
+        　　4、秋风瑟瑟，树叶零乱，凄凉片片，到处弥漫，心也随着欲发的伤感，突然发现，秋天是个伤感的季节……
+        　　5、那个秋天，心随着秋风萧瑟、飘摇，心事像落叶一样枯萎、埋葬，一切都消失在那个烟雨缥缈的清秋中。
+        　　6、秋风乍起，落叶归根；静水东流，孤夜月明。秋天给人一种悲凉、寂寥的感觉。有的人在这样的季节里会伤春悲秋，会在这样的季度里感叹生命的无常。
+        　　7、我喜欢秋天，着了魔似的喜欢秋天的一切，秋叶、秋雨。。。这一切在我眼里是那样的让人忧伤。又是满目的黄叶，又是凋零的季节。
+        　　8、深秋的天气更冷了，树叶枯黄了，纷纷扬扬地落在地上，像铺上了一层黄地毯，惟有香樟树不忍枯萎，颇有独立寒秋的味道。
+        　　9、如果你悲伤，那么它便是一个蜷缩角落，让人悲悼的秋；如果你伤感，满地落叶，急煞的秋风铺天卷地，疾风飒然，到处酝酿着离别的气氛，却道尽是离人泪，那么秋，将是一个离别之秋。
+        　　10、秋天是孤独的，是忘掉烦恼的季节，秋天是清高的，是寄托愁思的季节，秋天是浪漫的，到处飘香这沉甸甸的果实，秋天是萧瑟的，心底总有一丝惆怅和几许淡淡的忧伤……
+        　　11、一个人的秋天，那么孤单；一个人的秋天，那么悲凉；一个人的秋天，那么漫长……
+        　　12、行走在秋日的街头，心中平添了几分忧郁和惆怅，抬头望天，
+    </div>
+</div>
+<script type="text/javascript">
+    window.onload = function(){
+        var oDiv1 = document.getElementById('div1');
+        var oDiv2 = document.getElementById('div2');
+        var oDiv3 = document.getElementById('div3');
+        var oDiv4 = document.getElementById('div4');
+        var disX =0;
+        oDiv2.onmousedown = function(ev){
+            var oEvent = ev||event;
+            disX= oEvent.clientX -oDiv2.offsetLeft;
+            document.onmousemove =function(ev){
+                var oEvent = ev||event;
+                oDiv2.style.left = oEvent.clientX-disX+'px';
+
+                if(oDiv2.offsetLeft<0){
+                    oDiv2.style.left = 0;
+                }
+                else if(oDiv2.offsetLeft>oDiv1.offsetWidth-oDiv2.offsetWidth){
+                    oDiv2.style.left = oDiv1.offsetWidth-oDiv2.offsetWidth+'px';
+                }
+                var scale = oDiv2.offsetLeft/(oDiv1.offsetWidth-oDiv2.offsetWidth);  //算成百分比来算（0~1）
+                oDiv4.style.top = -(oDiv4.offsetHeight-oDiv3.offsetHeight)*scale+'px';
+            };
+            document.onmouseup = function(){
+                document.onmousemove=null;
+                document.onmouseup = null;
+            }
+        };
+
+    }
+</script>
+</body>
+</html>

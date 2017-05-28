@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        div{
+            width:300px;
+            height:100px;
+            border: 1px dotted #930;
+            padding: 20px;
+            margin-top: 16px;
+            margin-left: 30px;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            background-image: url('../HTML5/b.jpg');
+        }
+        /*复合指定背景图片**/
+        div{
+            /**这里的200px为size，left top,center为position**/
+            background: url("../HTML5/b.jpg") left top no-repeat,
+                        url("../a.jpg") center 200px no-repeat;
+        }
+      /**裁减背景显示区域*/
+        /**背景在border处开始显示
+           背景在padding处开始显示
+           背景在content处开始显示
+        **/
+        #test1{
+            background-clip: border-box;
+            -moz-background-clip: border;
+
+            /*宽50 高自动*/
+            background-size: 50px auto;
+        }
+        #test2{
+           background-clip: padding-box;
+            -moz-background-clip: padding;
+            background-size: 100%;
+        }
+        #test3{
+           background-clip: content-box;
+            -moz-background-clip: content-box;
+            /*放大背景图片**/
+            background-size: cover;
+        }
+      /**背景的显示基准点**/
+
+        #test4{
+            background-origin: border-box;
+            -moz-background-origin: border;
+            /*缩小背景图片*/
+            background-size: contain;
+        }
+        #test5{
+            background-origin: padding-box;
+            -moz-background-origin: padding;
+        }
+        #test6{
+            background-origin: content-box;
+            -moz-background-origin: content-box;
+        }
+
+    </style>
+</head>
+<body>
+<div id="test1">背景显示设置border-box</div>
+<div id="test2">背景显示设置padding-box</div>
+<div id="test3">背景显示设置content-box</div>
+<div id="test4">背景显示设置border-box</div>
+<div id="test5">背景显示设置padding-box</div>
+<div id="test6">背景显示设置content-box</div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<script>
+    $(function () {
+        //需求1 页面加载的时候每隔固定时间，.word中添加一个字符
+        //需求2 点击say按钮，上面的input中的内容，每隔固定时间，.word中添加一个字符
+        //1定义字符串，然后显示插入条光标(把字符串转成数组)
+         var str = "红鲤鱼与绿鲤鱼与驴";
+         var arr = str.split("");
+         var str2 = "";
+         var num = 0;
+        var timer=null;
+        $(".typed-cursor").show();
+        //2定时器
+        timer = setInterval(function(){
+
+            //4判断，如果文字的个数和数组的长度一样了，就清除定时器
+            if(arr[num]===undefined){
+                clearInterval(timer);
+                //光标消失
+                $(".typed-cursor").hide();
+            }else{
+                str2 += arr[num];
+                //3每隔一段时间，在.word中插入一个文字（就是改变内容.text()）
+                $(".word").text(str2);
+                //索引值自增
+                num++;
+            }
+            //定义一个字符串用来接收
+
+        },200);
+        $("#btnSay").click(function(){
+             str = $("#inValue").val();
+            //点了say后，里面写的内容就消失
+             $("#inValue").val("");
+             arr = str.split("");
+            //清空，因为上面一个用了，有累加值
+             str2 = "";
+             num = 0;
+            $(".typed-cursor").show();
+            //2定时器
+            timer = setInterval(function(){
+
+                //4判断，如果文字的个数和数组的长度一样了，就清除定时器
+                if(arr[num]===undefined){
+                    clearInterval(timer);
+                    //光标消失
+                    $(".typed-cursor").hide();
+                }else{
+                    str2 += arr[num];
+                    //3每隔一段时间，在.word中插入一个文字（就是改变内容.text()）
+                    $(".word").text(str2);
+                    //索引值自增
+                    num++;
+                }
+                //定义一个字符串用来接收
+
+            },200);
+        })
+
+    })
+</script>
+<body>
+
+</body>
+</html>

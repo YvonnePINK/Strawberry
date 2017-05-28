@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src=""></script>
+    <script>
+
+        $(function(){
+            //鼠标点击span,让他下面的div显示出来，让其他的div隐藏
+            $(".parentWrap span").click(function(){
+//                $(this).next().show();
+//                //让其隐藏
+//                //点击的span的父元素li,的所有的兄弟元素li的孩子元素div的全部
+//                $(this).parent("li").siblings("li").children("div").hide();
+                //链式编程
+                $(this).next().show().parent("li").siblings("li").children("div").hide();
+                )
+            })
+        })
+    </script>
+
+</head>
+<body>
+<ul class="parentWrap">
+    <li>
+        <span class="groupTitle"></span>
+        <div></div>
+    </li>
+    <li>
+        <span  class="groupTitle"></span>
+        <div></div>
+    </li>
+    <li>
+        <span  class="groupTitle"></span>
+        <div></div>
+    </li>
+    <li>
+        <span  class="groupTitle"></span>
+        <div></div>
+    </li>
+</ul>
+</body>
+</html>

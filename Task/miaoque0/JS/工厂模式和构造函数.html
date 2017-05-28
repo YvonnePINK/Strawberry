@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    function createPerson(name,age,job){
+        var o = new Object();
+        o.name = name;
+        o.age = age;
+        o.job = job;
+        o.sayName = function(){
+           alert(this.name);
+        };
+        return o;
+    }
+    var person1 = createPerson('Amy','27','math');
+    var person2 = createPerson('Leo','22','doctor');
+    function Person(name,age,job){
+        this.name = name;
+        this.age = age;
+        this.job = job;
+        this.sayName = function(){
+            alert(this.name)
+        };
+    }
+    var person1 = new Person('Amy','27','math');
+    var person2 = new Person('Leo','22','doctor');
+    alert(person1 instanceof Object);
+    alert(person1 instanceof Person);
+</script>
+</body>
+</html>

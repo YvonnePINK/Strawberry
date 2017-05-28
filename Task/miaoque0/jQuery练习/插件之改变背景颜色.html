@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="jquery-1.11.1.min.js"></script>
+    <script src="jquery.color.js"></script>
+    <script>
+        $(function () {
+            //获取按钮，改变盒子的背景色
+            $("button").on("click",function(){
+                $("div").animate({"width":200,"background-color":"red"},2000)
+                alert("动画结束");
+            })
+        })
+    </script>
+</head>
+<body>
+
+</body>
+</html>

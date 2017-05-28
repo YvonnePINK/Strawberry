@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        #div1{
+            background: red;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+        .box{
+            position: absolute;
+            border: 1px dashed black;
+        }
+    </style>
+</head>
+<body>
+<script type="text/javascript">
+    window.onload = function () {
+        var oDiv1 = document.getElementById('div1');
+        var disX = 0;
+        var disY = 0;
+        oDiv1.onmousedown = function (ev) {
+            var oEvent = ev || event;
+            disX = oEvent.clientX - oDiv1.offsetLeft;
+            disY = oEvent.clientY - oDiv1.offsetTop;
+            var oNewDiv = document.createElement('div');
+            oNewDiv.className = 'box';
+            oNewDiv.style.width = oDiv1.offsetWidth-2+'px';
+            oNewDiv.style.height = oDiv1.offsetHeight-2+'px'; //因为onnewdiv有边框2厘米
+            document.body.appendChild(oNewDiv);
+            oNewDiv.style.top =  oDiv1.offsetTop+'px';
+            oNewDiv.style.left = oDiv1.offsetLeft+'px';
+            document.onmousemove = function (ev) {
+                var oEvent = ev || event;
+                oNewDiv.style.left = oEvent.clientX - disX + 'px';
+                oNewDiv.style.top = oEvent.clientY - disY + 'px';
+            };
+            document.onmouseup = function () {
+                document.onmousemove = null;
+                document.onmouseup = null;
+                oDiv1.style.left = oNewDiv.offsetLeft+'px';
+                oDiv1.style.top = oNewDiv.offsetTop + 'px';
+                oNewDiv.className = '';
+            }
+        };
+
+    }
+</script>
+<div id="div1">
+
+</div>
+</body>
+</html>

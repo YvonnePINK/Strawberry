@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<script src="jquery-1.11.1.min.js"></script>
+<script>
+    $(function () {
+        var data = [{
+            name:"djaj",
+            url:"http",
+            type:"jadja"
+        },{
+            name:"djaj",
+            url:"http",
+            type:"jadja"
+        },{
+            name:"djaj",
+            url:"http",
+            type:"jadja"
+        }];
+        //步骤：
+        //1.绑定事件
+        //2.利用for循环，把数组中的所有数据组合成一个字符串
+        //3.把生成的字符串设置为html内容添加进tbody
+        $("input").click(function(){
+            //写入到click事件中，每次点击以后把str清空
+            var str="";
+            for(var i=0;i<data.length;i++){
+                //data[i]=数组中每一个json
+                //data[i].name = 数组中的每一个json的name的属性值
+                str = "<tr><th>"+data[i].name+"</th><th>"+data[i].url+"</th><th>"+data[i].type+"</th></tr>"
+
+            }
+            $("#j_tbData").html(str);
+        })
+    })
+
+</script>
+<body>
+<thead>
+<tr>
+    <th>标题</th>
+    <th>地址</th>
+    <th>说明</th>
+</tr>
+</thead>
+<tbody id="j_tbData">
+
+</tbody>
+</body>
+</html>

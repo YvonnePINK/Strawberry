@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    function selectFrom(lowerValue,upperValue){
+        var choices = upperValue - lowerValue +1;
+        return Math.floor(Math.random() * choices + lowerValue);
+    }
+    //显示2-10的随机数
+    var nums = selectFrom(2,10);
+    alert(nums);
+    //任意显示一个颜色
+    var colors = ['red','yellow','blue','pink','gray'];
+    var color = colors[selectFrom(0,colors.length-1)];
+    alert(color);
+</script>
+</body>
+</html>

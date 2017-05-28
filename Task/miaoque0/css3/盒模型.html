@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        div{
+            width: 200px;
+            height: 200px;
+            margin-top: 30px;
+            margin-right: 30px;
+            padding: 20px;
+            border: 1px solid #930;
+            /**使用resize前必须先设定overflow，如果overflow属性值为visible,则无效*/
+            overflow: auto;
+
+        }
+        img{
+            border: 0;
+        }
+        #test1{
+            box-sizing: content-box;
+            -moz-box-sizing:content-box;
+            -webkit-box-sizing: content-box;
+            /**设置外边框**/
+            outline-offset: 5px;
+            outline: 2px dotted #06C;
+            /**变更元素div的大小*both,horizontal,vertical*/
+            resize: both;
+        }
+        #test2{
+            box-sizing: border-box;
+            -moz-box-sizing:border-box;
+            -webkit-box-sizing: border-box;
+            outline-offset: 15px;
+            outline: 2px dashed #f0C;
+            resize: horizontal;
+        }
+    </style>
+</head>
+<body>
+<div id="test1" ><img src="../HTML5/b.jpg" style="width: 150px; height:150px"/> </div>
+<div id="test2" ><img src="../HTML5/b.jpg" style="width: 150px; height:150px"/> </div>
+</body>
+</html>
